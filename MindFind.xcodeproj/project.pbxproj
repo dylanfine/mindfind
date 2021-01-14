@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E4021C225AA310C009DEAFA /* MindFindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021C125AA310C009DEAFA /* MindFindApp.swift */; };
+		2E4021C425AA310C009DEAFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021C325AA310C009DEAFA /* ContentView.swift */; };
+		2E4021C625AA310E009DEAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4021C525AA310E009DEAFA /* Assets.xcassets */; };
+		2E4021C925AA310E009DEAFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4021C825AA310E009DEAFA /* Preview Assets.xcassets */; };
+		2E4021D425AA310E009DEAFA /* MindFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021D325AA310E009DEAFA /* MindFindTests.swift */; };
+		2E4021DF25AA310E009DEAFA /* MindFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021DE25AA310E009DEAFA /* MindFindUITests.swift */; };
+		2E4021E425AA310E009DEAFA /* MindFind WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2E4021E325AA310E009DEAFA /* MindFind WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E4021E925AA310F009DEAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4021E825AA310F009DEAFA /* Assets.xcassets */; };
+		2E4021F025AA310F009DEAFA /* MindFind WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2E4021EF25AA310F009DEAFA /* MindFind WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E4021F525AA310F009DEAFA /* MindFindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021F425AA310F009DEAFA /* MindFindApp.swift */; };
+		2E4021F725AA310F009DEAFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021F625AA310F009DEAFA /* ContentView.swift */; };
+		2E4021F925AA310F009DEAFA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021F825AA310F009DEAFA /* NotificationController.swift */; };
+		2E4021FB25AA310F009DEAFA /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021FA25AA310F009DEAFA /* NotificationView.swift */; };
+		2E4021FD25AA310F009DEAFA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4021FC25AA310F009DEAFA /* ComplicationController.swift */; };
+		2E4021FF25AA3110009DEAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4021FE25AA3110009DEAFA /* Assets.xcassets */; };
+		2E40220225AA3110009DEAFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E40220125AA3110009DEAFA /* Preview Assets.xcassets */; };
+		2E40221E25AA4F70009DEAFA /* EmotionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40221D25AA4F70009DEAFA /* EmotionPicker.swift */; };
+		2E40222725AA56FE009DEAFA /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E40222625AA56FE009DEAFA /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E4021D025AA310E009DEAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4021B625AA310C009DEAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4021BD25AA310C009DEAFA;
+			remoteInfo = MindFind;
+		};
+		2E4021DB25AA310E009DEAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4021B625AA310C009DEAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4021BD25AA310C009DEAFA;
+			remoteInfo = MindFind;
+		};
+		2E4021E525AA310E009DEAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4021B625AA310C009DEAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4021E225AA310E009DEAFA;
+			remoteInfo = "MindFind WatchKit App";
+		};
+		2E4021F125AA310F009DEAFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4021B625AA310C009DEAFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4021EE25AA310F009DEAFA;
+			remoteInfo = "MindFind WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E40220A25AA3110009DEAFA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2E4021F025AA310F009DEAFA /* MindFind WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E40220E25AA3110009DEAFA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2E4021E425AA310E009DEAFA /* MindFind WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E4021BE25AA310C009DEAFA /* MindFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4021C125AA310C009DEAFA /* MindFindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFindApp.swift; sourceTree = "<group>"; };
+		2E4021C325AA310C009DEAFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E4021C525AA310E009DEAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E4021C825AA310E009DEAFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E4021CA25AA310E009DEAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4021CF25AA310E009DEAFA /* MindFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4021D325AA310E009DEAFA /* MindFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFindTests.swift; sourceTree = "<group>"; };
+		2E4021D525AA310E009DEAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4021DA25AA310E009DEAFA /* MindFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4021DE25AA310E009DEAFA /* MindFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFindUITests.swift; sourceTree = "<group>"; };
+		2E4021E025AA310E009DEAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4021E325AA310E009DEAFA /* MindFind WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MindFind WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4021E825AA310F009DEAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E4021EA25AA310F009DEAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4021EF25AA310F009DEAFA /* MindFind WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MindFind WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4021F425AA310F009DEAFA /* MindFindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFindApp.swift; sourceTree = "<group>"; };
+		2E4021F625AA310F009DEAFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E4021F825AA310F009DEAFA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2E4021FA25AA310F009DEAFA /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2E4021FC25AA310F009DEAFA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2E4021FE25AA3110009DEAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E40220125AA3110009DEAFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E40220325AA3110009DEAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E40220425AA3110009DEAFA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2E40221D25AA4F70009DEAFA /* EmotionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionPicker.swift; sourceTree = "<group>"; };
+		2E40222625AA56FE009DEAFA /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E4021BB25AA310C009DEAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E40222725AA56FE009DEAFA /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021CC25AA310E009DEAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021D725AA310E009DEAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021EC25AA310F009DEAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4021B525AA310C009DEAFA = {
+			isa = PBXGroup;
+			children = (
+				2E4021C025AA310C009DEAFA /* MindFind */,
+				2E4021D225AA310E009DEAFA /* MindFindTests */,
+				2E4021DD25AA310E009DEAFA /* MindFindUITests */,
+				2E4021E725AA310E009DEAFA /* MindFind WatchKit App */,
+				2E4021F325AA310F009DEAFA /* MindFind WatchKit Extension */,
+				2E4021BF25AA310C009DEAFA /* Products */,
+				2E40222525AA56FE009DEAFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E4021BF25AA310C009DEAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E4021BE25AA310C009DEAFA /* MindFind.app */,
+				2E4021CF25AA310E009DEAFA /* MindFindTests.xctest */,
+				2E4021DA25AA310E009DEAFA /* MindFindUITests.xctest */,
+				2E4021E325AA310E009DEAFA /* MindFind WatchKit App.app */,
+				2E4021EF25AA310F009DEAFA /* MindFind WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E4021C025AA310C009DEAFA /* MindFind */ = {
+			isa = PBXGroup;
+			children = (
+				2E4021C125AA310C009DEAFA /* MindFindApp.swift */,
+				2E4021C325AA310C009DEAFA /* ContentView.swift */,
+				2E40221D25AA4F70009DEAFA /* EmotionPicker.swift */,
+				2E4021C525AA310E009DEAFA /* Assets.xcassets */,
+				2E4021CA25AA310E009DEAFA /* Info.plist */,
+				2E4021C725AA310E009DEAFA /* Preview Content */,
+			);
+			path = MindFind;
+			sourceTree = "<group>";
+		};
+		2E4021C725AA310E009DEAFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E4021C825AA310E009DEAFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E4021D225AA310E009DEAFA /* MindFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E4021D325AA310E009DEAFA /* MindFindTests.swift */,
+				2E4021D525AA310E009DEAFA /* Info.plist */,
+			);
+			path = MindFindTests;
+			sourceTree = "<group>";
+		};
+		2E4021DD25AA310E009DEAFA /* MindFindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E4021DE25AA310E009DEAFA /* MindFindUITests.swift */,
+				2E4021E025AA310E009DEAFA /* Info.plist */,
+			);
+			path = MindFindUITests;
+			sourceTree = "<group>";
+		};
+		2E4021E725AA310E009DEAFA /* MindFind WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2E4021E825AA310F009DEAFA /* Assets.xcassets */,
+				2E4021EA25AA310F009DEAFA /* Info.plist */,
+			);
+			path = "MindFind WatchKit App";
+			sourceTree = "<group>";
+		};
+		2E4021F325AA310F009DEAFA /* MindFind WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2E4021F425AA310F009DEAFA /* MindFindApp.swift */,
+				2E4021F625AA310F009DEAFA /* ContentView.swift */,
+				2E4021F825AA310F009DEAFA /* NotificationController.swift */,
+				2E4021FA25AA310F009DEAFA /* NotificationView.swift */,
+				2E4021FC25AA310F009DEAFA /* ComplicationController.swift */,
+				2E4021FE25AA3110009DEAFA /* Assets.xcassets */,
+				2E40220325AA3110009DEAFA /* Info.plist */,
+				2E40220425AA3110009DEAFA /* PushNotificationPayload.apns */,
+				2E40220025AA3110009DEAFA /* Preview Content */,
+			);
+			path = "MindFind WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2E40220025AA3110009DEAFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E40220125AA3110009DEAFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E40222525AA56FE009DEAFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E40222625AA56FE009DEAFA /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E4021BD25AA310C009DEAFA /* MindFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E40220F25AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFind" */;
+			buildPhases = (
+				2E4021BA25AA310C009DEAFA /* Sources */,
+				2E4021BB25AA310C009DEAFA /* Frameworks */,
+				2E4021BC25AA310C009DEAFA /* Resources */,
+				2E40220E25AA3110009DEAFA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4021E625AA310E009DEAFA /* PBXTargetDependency */,
+			);
+			name = MindFind;
+			productName = MindFind;
+			productReference = 2E4021BE25AA310C009DEAFA /* MindFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E4021CE25AA310E009DEAFA /* MindFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E40221225AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFindTests" */;
+			buildPhases = (
+				2E4021CB25AA310E009DEAFA /* Sources */,
+				2E4021CC25AA310E009DEAFA /* Frameworks */,
+				2E4021CD25AA310E009DEAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4021D125AA310E009DEAFA /* PBXTargetDependency */,
+			);
+			name = MindFindTests;
+			productName = MindFindTests;
+			productReference = 2E4021CF25AA310E009DEAFA /* MindFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E4021D925AA310E009DEAFA /* MindFindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E40221525AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFindUITests" */;
+			buildPhases = (
+				2E4021D625AA310E009DEAFA /* Sources */,
+				2E4021D725AA310E009DEAFA /* Frameworks */,
+				2E4021D825AA310E009DEAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4021DC25AA310E009DEAFA /* PBXTargetDependency */,
+			);
+			name = MindFindUITests;
+			productName = MindFindUITests;
+			productReference = 2E4021DA25AA310E009DEAFA /* MindFindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2E4021E225AA310E009DEAFA /* MindFind WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E40220B25AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFind WatchKit App" */;
+			buildPhases = (
+				2E4021E125AA310E009DEAFA /* Resources */,
+				2E40220A25AA3110009DEAFA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4021F225AA310F009DEAFA /* PBXTargetDependency */,
+			);
+			name = "MindFind WatchKit App";
+			productName = "MindFind WatchKit App";
+			productReference = 2E4021E325AA310E009DEAFA /* MindFind WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2E4021EE25AA310F009DEAFA /* MindFind WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E40220725AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFind WatchKit Extension" */;
+			buildPhases = (
+				2E4021EB25AA310F009DEAFA /* Sources */,
+				2E4021EC25AA310F009DEAFA /* Frameworks */,
+				2E4021ED25AA310F009DEAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MindFind WatchKit Extension";
+			productName = "MindFind WatchKit Extension";
+			productReference = 2E4021EF25AA310F009DEAFA /* MindFind WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E4021B625AA310C009DEAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2E4021BD25AA310C009DEAFA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2E4021CE25AA310E009DEAFA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2E4021BD25AA310C009DEAFA;
+					};
+					2E4021D925AA310E009DEAFA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2E4021BD25AA310C009DEAFA;
+					};
+					2E4021E225AA310E009DEAFA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2E4021EE25AA310F009DEAFA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 2E4021B925AA310C009DEAFA /* Build configuration list for PBXProject "MindFind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E4021B525AA310C009DEAFA;
+			productRefGroup = 2E4021BF25AA310C009DEAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E4021BD25AA310C009DEAFA /* MindFind */,
+				2E4021CE25AA310E009DEAFA /* MindFindTests */,
+				2E4021D925AA310E009DEAFA /* MindFindUITests */,
+				2E4021E225AA310E009DEAFA /* MindFind WatchKit App */,
+				2E4021EE25AA310F009DEAFA /* MindFind WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E4021BC25AA310C009DEAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4021C925AA310E009DEAFA /* Preview Assets.xcassets in Resources */,
+				2E4021C625AA310E009DEAFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021CD25AA310E009DEAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021D825AA310E009DEAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021E125AA310E009DEAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4021E925AA310F009DEAFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021ED25AA310F009DEAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E40220225AA3110009DEAFA /* Preview Assets.xcassets in Resources */,
+				2E4021FF25AA3110009DEAFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4021BA25AA310C009DEAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4021C425AA310C009DEAFA /* ContentView.swift in Sources */,
+				2E40221E25AA4F70009DEAFA /* EmotionPicker.swift in Sources */,
+				2E4021C225AA310C009DEAFA /* MindFindApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021CB25AA310E009DEAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4021D425AA310E009DEAFA /* MindFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021D625AA310E009DEAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4021DF25AA310E009DEAFA /* MindFindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4021EB25AA310F009DEAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4021F925AA310F009DEAFA /* NotificationController.swift in Sources */,
+				2E4021F725AA310F009DEAFA /* ContentView.swift in Sources */,
+				2E4021FD25AA310F009DEAFA /* ComplicationController.swift in Sources */,
+				2E4021F525AA310F009DEAFA /* MindFindApp.swift in Sources */,
+				2E4021FB25AA310F009DEAFA /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E4021D125AA310E009DEAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4021BD25AA310C009DEAFA /* MindFind */;
+			targetProxy = 2E4021D025AA310E009DEAFA /* PBXContainerItemProxy */;
+		};
+		2E4021DC25AA310E009DEAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4021BD25AA310C009DEAFA /* MindFind */;
+			targetProxy = 2E4021DB25AA310E009DEAFA /* PBXContainerItemProxy */;
+		};
+		2E4021E625AA310E009DEAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4021E225AA310E009DEAFA /* MindFind WatchKit App */;
+			targetProxy = 2E4021E525AA310E009DEAFA /* PBXContainerItemProxy */;
+		};
+		2E4021F225AA310F009DEAFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4021EE25AA310F009DEAFA /* MindFind WatchKit Extension */;
+			targetProxy = 2E4021F125AA310F009DEAFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E40220525AA3110009DEAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E40220625AA3110009DEAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2E40220825AA3110009DEAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MindFind WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MindFind WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFind.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		2E40220925AA3110009DEAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MindFind WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MindFind WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFind.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		2E40220C25AA3110009DEAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MindFind_WatchKit_Extension;
+				INFOPLIST_FILE = "MindFind WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFind.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		2E40220D25AA3110009DEAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MindFind_WatchKit_Extension;
+				INFOPLIST_FILE = "MindFind WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFind.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		2E40221025AA3110009DEAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MindFind/MindFind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MindFind/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MindFind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E40221125AA3110009DEAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MindFind/MindFind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MindFind/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MindFind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E40221325AA3110009DEAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindFindTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindFind.app/MindFind";
+			};
+			name = Debug;
+		};
+		2E40221425AA3110009DEAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindFindTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindFind.app/MindFind";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E40221625AA3110009DEAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindFindUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindFind;
+			};
+			name = Debug;
+		};
+		2E40221725AA3110009DEAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindFindUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MindFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindFind;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4021B925AA310C009DEAFA /* Build configuration list for PBXProject "MindFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E40220525AA3110009DEAFA /* Debug */,
+				2E40220625AA3110009DEAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E40220725AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFind WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E40220825AA3110009DEAFA /* Debug */,
+				2E40220925AA3110009DEAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E40220B25AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFind WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E40220C25AA3110009DEAFA /* Debug */,
+				2E40220D25AA3110009DEAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E40220F25AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E40221025AA3110009DEAFA /* Debug */,
+				2E40221125AA3110009DEAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E40221225AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E40221325AA3110009DEAFA /* Debug */,
+				2E40221425AA3110009DEAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E40221525AA3110009DEAFA /* Build configuration list for PBXNativeTarget "MindFindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E40221625AA3110009DEAFA /* Debug */,
+				2E40221725AA3110009DEAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E4021B625AA310C009DEAFA /* Project object */;
+}
